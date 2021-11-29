@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="index1.css">
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+	<title></title>
+</head>
+<body>
+	<!-- Code For Logo and Nav Bar -->
+       <nav class="navbar">
+       	 <!-- Logo (from flaticon) -->
+       	   <div>
+       	   	     <img class="icon" src="office-building.png">
+       	   </div>
+
+     <!-- Search Bar -->
+<!--        	<form class="searchBar" style=" margin:auto; max-width:300px">
+       	   	  <input type="text" placeholder="Search.." name="search2">
+              <button type="submit"><i class="fa fa-search"></i></button>
+       	 </form> -->
+
+        <br>
+       	   <!-- Navbar -->
+       	<div class="">
+       	   <ul class="list" id="navid">
+       	   	   <li class="list-item">
+       	   	   	   <a href="">Home</a>
+       	   	   </li>
+       	   	   <li class="list-item">
+       	   	   	   <a href="">Services</a>
+       	   	   </li>
+       	   	   <li class="list-item">
+       	   	   	   <a href="">About Us</a>
+       	   	   </li>
+       	   	   <li class="list-item">
+       	   	   	   <a href="">Contact Us</a>
+       	   	   </li>
+       	   	   <li class="list-item">
+       	   	   	   <a href="">Blog</a>
+       	   	   </li>
+       	   </ul>
+       	 </div>
+       	 <!-- hamburger menu -->
+            <div class="menu" id="togglebtn">
+       	         <div class="menu-line"></div>
+       	         <div class="menu-line"></div>
+       	         <div class="menu-line"></div>
+            </div>
+       	</nav>
+
+       <!-- Info Body 1st -->
+       <div class="info-body"> 
+       	     <div class="box">
+       	     	<h2>This Is Demo Website</h2><br>
+       	     	<h3>In publishing and graphic design, Lorem ipsum is a placeholder <br/> text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. </h3>
+       	     </div>
+       </div>
+
+       <!-- This is Info Body 2nd -->
+       <div class="info-body1">
+       	      <div class="text">
+       	      	  <h1>Lorem Ipsum</h1>
+       	      	  <h3>In publishing and graphic design, <br> Lorem ipsum is a placeholder</h3>
+       	      </div>
+
+       	      <div class="box1">
+       	      	   
+       	      </div>
+       	      <div class="box1">
+       	      	   
+       	      </div>
+       	      <div class="box1">
+       	      	   
+       	      </div>
+       </div>
+
+
+</body>
+<script type="text/javascript">
+	const toggleid = document.getElementById('togglebtn');
+	const navList = document.getElementById('navid');
+
+	toggleid.addEventListener('click', () => {
+		navid.classList.toggle('active');
+	})
+</script>
+</html>
